@@ -548,6 +548,12 @@ input:focus-visible {
   .card_statistics p{
     font-size: 12px;
   }
+  .card_statistics h1 {
+    font-size: 14px;
+  }
+  .card_statistics p {
+      font-size: 16px;
+  }
 }
 @media (max-width: 870px) {
   .banner_home{

@@ -1,8 +1,24 @@
-# React + Vite
+## Solucion prueba tecnica 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Importante 
 
-Currently, two official plugins are available:
+Para la ejecucion del proyecto solo se requiere hacer la instalacion de paquetes con el siguiente comando.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```Js
+npm install
+```
+
+y por ultimo para correr el proyecto solo seria lo siguiente: 
+
+```Js
+npm run dev
+```
+
+### Algunas imagenes de la actividad 
+
+<img src="./src/assets/img/Evidencia1.png">;
+<img src="./src/assets/img/Evidencia2.png">;
+<img src="./src/assets/img/Evidencia3.png">;
+<img src="./src/assets/img/Evidencia4.png">;
+<img src="./src/assets/img/Evidencia5.png">;
+<img src="./src/assets/img/Evidencia6.png">; 
