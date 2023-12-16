@@ -2,49 +2,25 @@ import { Box, Button, Typography } from "@mui/material";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <>
-      <Box
-        sx={{
-          display: "flex",
-          minHeight: "100vh",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "space-around",
-          width: "200px",
-          maxWidth: "200px",
-        }}
-      >
+      <div className="sidebar">
         <FontAwesomeIcon
           icon={faBook}
-          style={{
-            fontSize: "45px",
-            color: "#fff",
-            padding:"17px",
-            boxShadow:"0px 5px 10px #00000037",
-            borderRadius:"14px"
-          }}
-        />
+          className="icon_sidebar"/>
         <Typography
           variant="h6"
           sx={{ fontWeight: "400", fontSize: "17px" }}
         >
-          <ul
-            style={{
-              listStyleType: "none",
-              padding: 0,
-              textAlign: "center",
-              cursor:"pointer",
-              color: "#fff"
-            }}
-          >
-            <li>Inicio</li>
-            <li>Libros</li>
-            <li>Editores</li>
-            <li>Lectores</li>
-          </ul>
+          <div className="routes_style">
+            <Link className="route_style" to="/">Inicio</Link>
+            <Link className="route_style" to="/books">Libros</Link>
+            <Link className="route_style" to="/editors">Editores</Link>
+            <Link className="route_style" to="/readers">Lectores</Link>
+          </div>
         </Typography>
         <Button
           variant="contained"
@@ -71,8 +47,7 @@ export default function Sidebar() {
           }}
         />
         </Button>
-        
-      </Box>
+      </div>
     </>
   );
 }
